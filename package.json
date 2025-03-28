@@ -1,0 +1,27 @@
+{
+  "name": "fkt",
+  "version": "1.0.0",
+  "description": "todo extension",
+  "keywords": [
+    "extension"
+  ],
+  "homepage": "https://github.com/Yonatan-Herrera/FKT#readme",
+  "bugs": {
+    "url": "https://github.com/Yonatan-Herrera/FKT/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yonatan-Herrera/FKT.git"
+  },
+  "license": "ISC",
+  "author": "Yonatan Herrera Gonzalez",
+  "type": "commonjs",
+  "main": "src/js/main.js",
+  "scripts": {
+    "test": "start"
+  },
+  "dependencies": {
+    "parcel": "^2.14.2",
+    "react": "^19.1.0"
+  }
+}

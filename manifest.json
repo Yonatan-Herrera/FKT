@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "FKT",
+  "description": "To-Do Extension",
+  "version": "1.0",
+  "browser_action": {
+    "default_icon": "",
+    "default_popup": "src/popup.html"
+  },
+  "persmisions": ["activeTab", "tabs"],
+  "content_scripts": [
+    {
+      "matches": ["https://*/*, htpp://*/*"],
+      "js": ["src/build/main.js"]
+    }
+  ]
+}
